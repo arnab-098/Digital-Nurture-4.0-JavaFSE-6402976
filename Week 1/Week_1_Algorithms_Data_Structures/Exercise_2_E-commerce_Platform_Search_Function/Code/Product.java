@@ -13,7 +13,7 @@ public class Product {
     }
 
     public int searchProductId(String key) {
-        return Search.linearSearch(productId, key);
+        return Search.binarySearch(productId, key);
     }
 
     public int searchProductName(String key) {
